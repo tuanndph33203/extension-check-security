@@ -8,7 +8,7 @@
   },
   "include": [
     "src/**/*.ts"
-  ],
+, "src/background.js", "src/content.js"  ],
   "exclude": [
     "src/**/*.spec.ts"
   ]
