@@ -7,9 +7,11 @@
     "types": []
   },
   "include": [
-    "src/**/*.ts"
-, "src/background.js", "src/content.js"  ],
-  "exclude": [
-    "src/**/*.spec.ts"
-  ]
+    "src/**/*.ts",
+    "src/app/core/background/background.js",
+    "src/app/core/content-script/content.js",
+    "src/app/core/content-script/search-badges.js",
+    "src/types/**/*.d.ts"
+  ],
+  "exclude": ["src/**/*.spec.ts"]
 }

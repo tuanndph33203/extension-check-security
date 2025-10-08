@@ -32,15 +32,15 @@
                 "output": "."
               },
               {
-    "glob": "background.js",
-    "input": "src/",
-    "output": "/"
-  },
-  {
-    "glob": "content.js",
-    "input": "src/",
-    "output": "/"
-  }
+                "glob": "background.js",
+                "input": "src/app/core/background/",
+                "output": "/"
+              },
+              {
+                "glob": "content.js",
+                "input": "src/app/core/content-script/",
+                "output": "/"
+              }
             ],
             "styles": ["src/styles.scss"]
           },
@@ -100,20 +100,23 @@
                 "output": "."
               },
               {
-    "glob": "background.js",
-    "input": "src/",
-    "output": "/"
-  },
-  {
-    "glob": "content.js",
-    "input": "src/",
-    "output": "/"
-  }
+                "glob": "background.js",
+                "input": "src/app/core/background/",
+                "output": "/"
+              },
+              {
+                "glob": "content.js",
+                "input": "src/app/core/content-script/",
+                "output": "/"
+              }
             ],
             "styles": ["src/styles.scss"]
           }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "72541c14-e13a-4061-a505-649d2063fd69"
   }
 }
